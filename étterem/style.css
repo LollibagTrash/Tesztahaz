@@ -1,0 +1,11 @@
+.banner{
+    text-align: center;
+}
+.carousel-inner img{
+    margin: 0 auto;
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+    filter: invert(100%);
+}
