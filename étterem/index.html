@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="képek/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="képek/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="képek/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
      <link rel="stylesheet" href="style.css">
     <title>Les Degesz</title>
 </head>
 <body>
+    <div class="tartalom">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Les Degesz</a>
+    <a class="navbar-brand" href="#"><img src="képek/logo.png" alt="logo" title="Ez egy oldal rekreáció!" height="70px"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -19,6 +24,9 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Főoldal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" target="_blank" href="https://www.lesdegesz.hu/">Eredeti</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -35,17 +43,17 @@
   </div>
 </nav>
     </header>
-    <div class="tartalom">
+    <main>
     <h1>Les Degesz Tésztaház</h1>
     <div class="banner">
-      <img src="képek/top1.jpg" alt="banner">
+      <img src="képek/top1.jpg" alt="banner" title="Étkező emberek :D">
     </div>
     
     <h2 id="rolunk">Történetünk dióhéjban</h2>
     <p>Tésztaházunk 1998. óta része Szeged gasztronómiai életének. Tésztaételeinket a hagyományos magyaros ízektől a klasszikus olasz megoldásokon át a saját receptjeinkig, sokszínűen készítjük. A változatos tésztakülönlegességek mellett levesek, lepények, saláták és desszertek találhatóak állandó étlapunkon. A lepények tésztáját helyben készítjük tej- és tojásmentesen. Tésztaételeink elkészítéséhez durumlisztből készült száraztésztát használunk, amit gluténérzékenyek részére kölestésztával tudunk helyettesíteni. Egész évben terasz kínál lehetőséget a szabadabb légtérbe vágyóknak (és a dohányosoknak).</p>
     <h2 id="etlap">Étlapunk</h2>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-theme="dark">
-  <div class="carousel-indicators">
+    <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -131,9 +139,78 @@
   </button>
 </div>
 <h2 id="nyitas">Nyitvatartás</h2>
-<div>
-  <h2 id="impresszum">Impresszum</h2>
+<table>
+  <tr>
+    <td>Hétfő</td>
+    <td>11:00</td>
+    <td>-</td>
+    <td>21:00</td>
+  </tr>
+  <tr>
+    <td>Kedd</td>
+    <td>11:00</td>
+    <td>-</td>
+    <td>22:00</td>
+  </tr>
+  <tr>
+    <td>Szerda</td>
+    <td>11:00</td>
+    <td>-</td>
+    <td>22:00</td>
+  </tr>
+  <tr>
+    <td>Csütörtök</td>
+    <td>11:00</td>
+    <td>-</td>
+    <td>22:00</td>
+  </tr>
+  <tr>
+    <td>Péntek</td>
+    <td>11:00</td>
+    <td>-</td>
+    <td>22:00</td>
+  </tr>
+  <tr>
+    <td>Szombat</td>
+    <td>11:00</td>
+    <td>-</td>
+    <td>22:00</td>
+  </tr>
+  <tr>
+    <td>Vasárnap</td>
+    <td>11:00</td>
+    <td>-</td>
+    <td>21:00</td>
+  </tr>
+</table>
+<h2 id="impresszum">Impresszum</h2>
+<div class="row">
+  <div class="col"></div>
+  <div class="col">
+  <p><b>Cégnév:</b> Gaudium Plusz Kereskedelmi és Vendéglátó Betéti Társaság</p>
+  <p><b>Székhely:</b> 6724 Szeged, Rókusi krt. 29.</p>
+  <p><b>Telefon:</b> +36 62 498 670</p>
+  <p><b>E-mail:</b> tesztahazszeged@gmail.com</p>
+  <p><b>Weboldal:</b> www.tesztahaz.hu</p>
+  </div>
+  <div class="col">
+    <p><b>Bejegyző hatóság:</b> Szegedi Törvényszék Cégbírósága</p>
+    <p><b>Cégjegyzékszám:</b> 06 06 006749/38</p>
+    <p><b>Adószám:</b> 21734720-2-06</p>
+    <p><b>Működési engedély száma:</b> 1997/2304</p>
+    <p><b>Kamarai tagság:</b> Csongrád Megyei Kereskedelmi és Iparkamara (CSMKIK)</p>
+  </div>
+  <div class="col"></div>
+  <div class="terkep">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2758.149407986455!2d20.132114!3d46.267135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474487e58134b521%3A0xac6f1ec25e699c63!2sLes%20Degesz%20T%C3%A9sztah%C3%A1z!5e0!3m2!1shu!2shu!4v1765490919932!5m2!1shu!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <br>
+    <span><i>6724 Szeged, Rókusi krt. 29.</i></span>
+  </div>
 </div>
+<footer>
+    Készítette: Rutai Annamária &copy;
+  </footer>
+</main>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
