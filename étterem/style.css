@@ -1,5 +1,8 @@
-.banner{
+.banner, .terkep{
     text-align: center;
+}
+img:hover{
+    border: 3px solid #255E81;
 }
 .carousel-inner img{
     margin: 0 auto;
@@ -9,3 +12,46 @@
 .carousel-control-prev{
     filter: invert(100%);
 }
+h1, h2{
+    text-align: center;
+    margin: 20px;
+}
+h1:hover, h2:hover{
+    color: black;
+}
+.tartalom{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(255, 232, 175);
+    border: 5px solid white;
+}
+p{
+    margin: 20px;
+    text-align: justify;
+}
+table{
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+td, tr{
+    border:2px solid #9c4803;
+    background-color: white;
+    font-weight: bold;
+}
+body{
+    background-image: url(képek/bg.png);
+}
+*{
+    color: #255E81;
+}
+span{
+    text-align: center;   
+}
+footer{
+    background-color:#9c4803;
+    color: white;
+    text-align: center;
+    padding: 10px;
+} 
+
